@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>A test for this attribute</title>
+        <script type="text/javascript">
+          function pop(e) {
+              alert(e.getAttribute("data-message"));
+             }
+        </script>
+    </head>
+    <body>
+        <h1>
+        <p id="data-message">It's data message.</p>
+    </h1>
+        <button type="button" data-message="a1" onclick="pop(this)">click</button>
+
+    </body>
+</html>
+
+
+
